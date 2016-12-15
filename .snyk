@@ -1,0 +1,9 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.7.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-RUBY-FASTREADER-20085:
+    - '* > fastreader@1.0.8':
+        reason: None given
+        expires: '2017-01-14T14:13:34.514Z'
+patch: {}
